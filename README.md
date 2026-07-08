@@ -2,7 +2,7 @@
 
 > Marketplace **and** execution runtime for local AI agents. Developers publish agents to a cloud catalog; users install them in one click and run them on **their own hardware** — no cloud inference cost, no data leaving the machine. The platform is the connecting core that downloads, verifies, installs, launches, supervises and uninstalls each agent.
 
-**A visual version of this document is [`architecture.html`](architecture.html)** — open it in a browser for the full graphical interface (matte, brand-styled, navigable).
+**A visual version of this document is [`index.html`](index.html)** — open it in a browser for the full graphical interface (matte, brand-styled, navigable).
 
 ![Go 1.23](https://img.shields.io/badge/Go-1.23-00ADD8) ![React 18](https://img.shields.io/badge/React-18-61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6) ![Rust · Tauri 2](https://img.shields.io/badge/Rust-Tauri_2-DEA584) ![Python SDK](https://img.shields.io/badge/Python-SDK-FFD343) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1) ![Redis](https://img.shields.io/badge/Redis-DC382D) ![WebSocket](https://img.shields.io/badge/WebSocket-9B6DD6)
 
