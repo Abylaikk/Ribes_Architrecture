@@ -27,7 +27,6 @@
 
   .wrap{max-width:1180px;margin:0 auto;padding:0 24px;}
 
-  /* Top nav */
   nav{position:sticky;top:0;z-index:50;background:rgba(15,15,19,.86);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);}
   nav .wrap{display:flex;align-items:center;gap:18px;height:56px;}
   nav .brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.28em;}
@@ -36,7 +35,6 @@
   nav .links a{font-size:12px;color:var(--t2);padding:6px 10px;border-radius:6px;border:1px solid transparent;transition:.15s;}
   nav .links a:hover{color:var(--t1);border-color:var(--line);background:var(--bg2);}
 
-  /* Hero */
   header.hero{padding:64px 0 40px;border-bottom:1px solid var(--line);position:relative;overflow:hidden;}
   header.hero .glow{position:absolute;width:600px;height:600px;border-radius:50%;
     background:radial-gradient(circle,rgba(126,87,181,.16),transparent 62%);top:-260px;right:-140px;filter:blur(20px);}
@@ -56,7 +54,6 @@
   h2 .n{color:var(--accent);margin-right:8px;}
   .lead{font-size:22px;font-weight:700;margin-bottom:24px;letter-spacing:-.2px;}
 
-  /* Layer diagram */
   .planes{display:flex;flex-direction:column;gap:14px;}
   .plane{border:1px solid var(--line);border-radius:10px;background:var(--bg1);padding:16px 18px;position:relative;}
   .plane .ptag{position:absolute;top:-9px;left:16px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
@@ -69,7 +66,6 @@
   .flowline{display:flex;justify-content:center;color:var(--t3);font-family:var(--mono);font-size:11px;letter-spacing:.1em;}
   .flowline .pill{border:1px dashed var(--line2);border-radius:20px;padding:3px 12px;background:var(--bg0);}
 
-  /* Generic grid of tech cards */
   .grid{display:grid;gap:14px;}
   .g2{grid-template-columns:repeat(2,1fr);}
   .g3{grid-template-columns:repeat(3,1fr);}
@@ -154,7 +150,6 @@
   </div>
 </div></header>
 
-<!-- OVERVIEW -->
 <section id="overview"><div class="wrap">
   <h2><span class="n">01</span>Bird's-eye</h2>
   <div class="lead">Three planes, one Go core as the single source of truth</div>
@@ -193,8 +188,7 @@
   </div>
   <div class="note" style="margin-top:18px">The AI agent itself executes locally on the user's CPU/GPU via the platform's <b>local execution engine</b> — the cloud never runs inference. The platform is the connecting core: it downloads, verifies, installs, launches, supervises and uninstalls each agent.</div>
 </div></section>
-
-<!-- STACK -->
+  
 <section id="stack"><div class="wrap">
   <h2><span class="n">02</span>Full technology map</h2>
   <div class="lead">Every layer, language and framework</div>
@@ -216,7 +210,6 @@
   </table>
 </div></section>
 
-<!-- FRONTEND -->
 <section id="frontend"><div class="wrap">
   <h2><span class="n">03</span>Frontend</h2>
   <div class="lead">React + TypeScript, matte industrial theme</div>
@@ -237,7 +230,6 @@
   <div class="note" style="margin-top:16px"><b>Pages:</b> Auth (+ Google/GitHub) · 3-step Onboarding · Store (facets, hardware gate, recommendations) · Agent Detail · Cart · Library · Downloads (network + disk graphs) · Community (realtime chat) · Publisher profile · Dev Center (5 steps) · Settings (8 sections) · Run-agent deep link.</div>
 </div></section>
 
-<!-- BACKEND -->
 <section id="backend"><div class="wrap">
   <h2><span class="n">04</span>Backend</h2>
   <div class="lead">One static Go binary, layered by package</div>
@@ -270,7 +262,6 @@
   </table>
 </div></section>
 
-<!-- DATA -->
 <section id="data"><div class="wrap">
   <h2><span class="n">05</span>Data layer</h2>
   <div class="lead">Two profiles, one SQL codebase</div>
@@ -287,7 +278,6 @@
   <div class="note" style="margin-top:16px">A separate <b>SQLite database on the client</b> (<code>%LOCALAPPDATA%\Ribes\library.db</code>) is the offline source of truth for what is installed on that machine — no provisioning required.</div>
 </div></section>
 
-<!-- DESKTOP + SDK -->
 <section id="desktop"><div class="wrap">
   <h2><span class="n">06</span>Desktop shell, installer &amp; SDK</h2>
   <div class="lead">Native runtime and the developer contract</div>
@@ -307,7 +297,6 @@
   </div>
 </div></section>
 
-<!-- FLOWS -->
 <section id="flows"><div class="wrap">
   <h2><span class="n">07</span>Key data flows</h2>
   <div class="lead">How the product actually moves</div>
@@ -333,7 +322,6 @@
   </div>
 </div></section>
 
-<!-- SCHEMA -->
 <section id="schema"><div class="wrap">
   <h2><span class="n">08</span>Database schema</h2>
   <div class="lead">Core tables (PostgreSQL / SQLite)</div>
@@ -357,7 +345,6 @@
   </div>
 </div></section>
 
-<!-- SECURITY -->
 <section id="security"><div class="wrap">
   <h2><span class="n">09</span>Security model</h2>
   <div class="lead">Trust boundaries &amp; integrity</div>
@@ -377,7 +364,6 @@
   </div>
 </div></section>
 
-<!-- DEPLOY -->
 <section id="deploy"><div class="wrap">
   <h2><span class="n">10</span>MVP deployment · Ubuntu + DigitalOcean</h2>
   <div class="lead">One droplet to production</div>
