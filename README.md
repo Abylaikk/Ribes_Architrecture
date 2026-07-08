@@ -205,4 +205,4 @@ Because the backend is a **single static binary** with automatic migrations, the
 
 ---
 
-*Generated from the live Ribes codebase. Languages: Go · TypeScript · Rust · Python. Data: PostgreSQL · Redis · SQLite · S3/CDN. Inference runs on the user's own hardware; the platform is the connecting core.*
+* from the live Ribes codebase. Languages: Go · TypeScript · Rust · Python. Data: PostgreSQL · Redis · SQLite · S3/CDN. Inference runs on the user's own hardware; the platform is the connecting core.*
